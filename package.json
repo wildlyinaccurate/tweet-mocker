@@ -1,0 +1,23 @@
+{
+  "name": "tweet-mocker",
+  "description": "Parses strings into Tweets by converting URLs, @usernames and #hashtags into <a> elements. Not intended to replace https://github.com/twitter/twitter-text-js",
+  "author": "Joseph Wynn <joseph@wildlyinaccurate.com>",
+  "keyords": ["twitter"],
+  "license": "MIT",
+  "version": "0.0.1",
+  "engines": { "node": ">=0.4.0" },
+  "main": "./lib/tweet-mocker.js",
+  "preferGlobal": true,
+  "dependencies": {},
+  "devDependencies": {
+      "jasmine-node": "1.12.*",
+      "coffee-script": "1.6.*"
+  },
+  "scripts": {
+      "test": "node spec/node.js"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/wildlyinaccurate/tweet-mocker.git"
+  }
+}
